@@ -1,0 +1,5 @@
+project: lexbor
+target: lexbor
+
+cmds:
+  - cmd: /element_create
