@@ -20,3 +20,4 @@ FROM ubuntu:20.04
 
 ## TODO: Change <Path in Builder Stage>
 COPY --from=builder /lexbor/build/examples/lexbor/html/element_create /
+ENV LD_LIBRARY_PATH=/build 
